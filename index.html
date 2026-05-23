@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="left-side">
+
+            <h1 class="logo">
+                Anatolii Kovalenko
+            </h1>
+
+            <p class="contact">
+                anatolii@email.com
+            </p>
+
+        </div>
+
+        <nav>
+
+            <a href="#about">About</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#recommendations">Recommendations</a>
+
+        </nav>
+
+    </header>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+
+        <img src="img/logo.png"
+        alt="Profile Image"
+        class="profile-img">
+
+        <div class="about-text">
+
+            <h2>Hi, I'm Anatolii</h2>
+
+            <p>
+                I am a software development student
+                passionate about building modern
+                websites and learning web technologies
+                like HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="icon">🌐</div>
+                <h3>HTML</h3>
+                <p>1 year experience</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🎨</div>
+                <h3>CSS</h3>
+                <p>1 year experience</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>1 year experience</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🐍</div>
+                <h3>Python</h3>
+                <p>1 year experience</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">💻</div>
+                <h3>GitHub</h3>
+                <p>1 year experience</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-card">
+
+            <h3>Quote Generator</h3>
+
+            <p>
+                Random quote generator built using
+                HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Weather App</h3>
+
+            <p>
+                Weather application using API
+                to display live weather data.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Task Manager</h3>
+
+            <p>
+                Simple to-do list app with dynamic
+                task management functionality.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+
+    <section id="recommendations">
+
+        <h2>Recommendations</h2>
+
+        <div class="recommendation">
+            "Anatolii is a hardworking developer
+            who learns quickly and writes clean code."
+        </div>
+
+        <div class="recommendation">
+            "Excellent teamwork and strong
+            problem-solving skills."
+        </div>
+
+        <div class="recommendation">
+            "Creative, motivated and passionate
+            about web development."
+        </div>
+
+    </section>
+
+    <!-- ADD RECOMMENDATION -->
+
+    <div class="recommend-form">
+
+        <input type="text"
+        id="newRecommendation"
+        placeholder="Write a recommendation">
+
+        <button onclick="addRecommendation()">
+            Submit
+        </button>
+
+    </div>
+
+    <div id="allRecommendations"></div>
+
+    <!-- HOME ICON -->
+
+    <a href="#top" class="home-icon">
+        🏠
+    </a>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #7600bc;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.contact{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* NAVIGATION */
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: yellow;
+    font-size: 24px;
+}
+
+/* ABOUT */
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+
+    padding: 80px;
+
+    min-height: 60vh;
+}
+
+.profile-img{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 6px solid #7600bc;
+}
+
+.about-text{
+    max-width: 500px;
+}
+
+.about-text h2{
+    color: #7600bc;
+    font-size: 48px;
+}
+
+.about-text p{
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+/* SKILLS */
+
+#skills{
+    padding: 80px;
+}
+
+#skills h2{
+    color: #7600bc;
+    font-size: 42px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-card{
+    width: 220px;
+
+    border: 2px solid #ddd;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.skill-card:hover{
+    transform: scale(1.05);
+}
+
+.icon{
+    font-size: 60px;
+}
+
+.skill-card h3{
+    font-size: 28px;
+}
+
+/* PROJECTS */
+
+#projects{
+    padding: 80px;
+}
+
+#projects h2{
+    color: #7600bc;
+    font-size: 42px;
+}
+
+.project-card{
+    border: 2px solid #ddd;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3{
+    font-size: 30px;
+}
+
+/* RECOMMENDATIONS */
+
+#recommendations{
+    padding: 80px;
+}
+
+#recommendations h2{
+    color: #7600bc;
+    font-size: 42px;
+}
+
+.recommendation{
+    border: 2px solid #ddd;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    background-color: #f8f8f8;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+    font-size: 20px;
+
+    font-style: italic;
+}
+
+/* FORM */
+
+.recommend-form{
+    padding: 0px 80px 80px 80px;
+}
+
+.recommend-form input{
+    width: 400px;
+
+    padding: 15px;
+
+    font-size: 18px;
+
+    border-radius: 10px;
+
+    border: 2px solid #ccc;
+}
+
+.recommend-form button{
+    padding: 15px 25px;
+
+    font-size: 18px;
+
+    background-color: #7600bc;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+/* HOME ICON */
+
+.home-icon{
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    background-color: #7600bc;
+
+    color: white;
+
+    padding: 15px;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    font-size: 28px;
+}
